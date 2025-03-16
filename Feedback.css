@@ -1,0 +1,95 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: sans-serif;
+}
+
+.container{
+    align-items: center;
+    width: 40%;
+   
+    margin:50px;
+    
+}
+#sign-in .container {
+   box-sizing: border-box;
+    padding: 1rem;
+    box-shadow: 5px 5px 5px 5px #ccc;
+}
+ .container a
+{
+    font-weight: 500;
+    width: 200px;
+    text-align: center;
+    display: block;
+    padding: 8px 5px;
+    color: white;
+    border-radius: 20px;
+    background-color: #00856f;
+    margin-bottom: 80px;
+}
+
+.container h3 {
+    text-align: center;
+   
+    color:  #e93187;
+}
+.sign .fa
+{
+    color: #e93187!important;
+    padding-right: 10px;
+}
+
+.input-row
+{
+    justify-content: space-between;
+    margin-bottom: 5px;
+    padding-top: 5px;
+}
+input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+.container label
+{
+    margin-bottom: 6px;
+    display: block;
+    color:  #e93187;
+    font-weight: 600;
+}
+.bottom
+{
+    width: 100%;
+}
+.question{
+    margin-bottom: 6px;
+    display: block;
+    color:  #e93187;
+    font-weight: 600;
+} 
+.myText
+{
+    width: 100%;
+    height: 50%;
+}
+
+
+
+.btn{
+    background-image: linear-gradient(to right, #e93187, #eb0f51);
+    width: 100%;
+    border: none;
+    outline: none;
+    color: white;
+    height: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow:0px 5px 5px 0px #ccc;
+}
